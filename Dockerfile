@@ -14,7 +14,7 @@ RUN apt-get clean && \
 
 USER $NB_USER
 
-RUN pip install git+https://github.com/ryanlovett/jupyter-server-proxy@2f963f4
+RUN pip install git+https://github.com/ryanlovett/jupyter-server-proxy@fb851ee
 
 ENV SYNCTHING_VERSION="v1.1.0"
 RUN wget https://github.com/syncthing/syncthing/releases/download/${SYNCTHING_VERSION}/syncthing-linux-amd64-${SYNCTHING_VERSION}.tar.gz && \

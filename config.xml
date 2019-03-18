@@ -1,0 +1,5 @@
+<configuration version="28">
+    <gui enabled="true" tls="false" debugging="false">
+        <insecureSkipHostcheck>true</insecureSkipHostcheck>
+    </gui>
+</configuration>

@@ -1,0 +1,6 @@
+SYNCTHING_VERSION="v1.1.0"
+
+wget https://github.com/syncthing/syncthing/releases/download/${SYNCTHING_VERSION}/syncthing-linux-amd64-${SYNCTHING_VERSION}.tar.gz && \
+    tar xzf syncthing-linux-amd64-${SYNCTHING_VERSION}.tar.gz
+
+export PATH="${PATH}:${HOME}/syncthing-linux-amd64-${SYNCTHING_VERSION}"

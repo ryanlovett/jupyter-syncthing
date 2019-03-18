@@ -1,4 +1,7 @@
 <configuration version="28">
+    <options>
+        <reconnectionIntervalS>3600</reconnectionIntervalS>
+    </options>
     <gui enabled="true" tls="false" debugging="false">
         <insecureSkipHostcheck>true</insecureSkipHostcheck>
     </gui>

@@ -7,7 +7,7 @@ c.ServerProxy.servers = {
       'title': "Syncthing"
     },
     'proxy_request_options': {
-		'request_timeout': 600
+		'request_timeout': 3600
 	}
   }
 }
